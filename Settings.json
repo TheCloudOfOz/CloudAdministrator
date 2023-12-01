@@ -1,0 +1,13 @@
+{
+    "Tenant":{
+        "Name":"WWLx637706.onmicrosoft.com",
+        "Prefix":"WWLx637706",
+        "Public":"lab62658276.godeploylabs.com"
+    },
+    "DNS":{
+        "Internal":{},
+        "External":{
+            
+        }
+    }
+}
