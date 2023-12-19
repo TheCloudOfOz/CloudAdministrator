@@ -1,13 +1,81 @@
 {
-    "Tenant":{
-        "Name":"WWLx637706.onmicrosoft.com",
-        "Prefix":"WWLx637706",
-        "Public":"lab62658276.godeploylabs.com"
+    "Tenant": {
+        "Name": "WWLx637706.onmicrosoft.com",
+        "Prefix": "WWLx637706",
+        "Public": "lab62658276.godeploylabs.com"
     },
-    "DNS":{
-        "Internal":{},
-        "External":{
-            
+    "DNS": {
+        "Internal": {
+            "Server": "10.0.0.5",
+            "Domain": "lab62658276.godeploylabs.com",
+            "Records": [
+                {
+                    "Name": "autodiscover",
+                    "Type": "CNAME",
+                    "Value": "autodiscover.outlook.com"
+                },
+                {
+                    "Name": "sip",
+                    "Type": "CNAME",
+                    "Value": "sipdir.online.lync.com"
+                },
+                {
+                    "Name": "lyncdiscover",
+                    "Type": "CNAME",
+                    "Value": "webdir.online.lync.com"
+                },
+                {
+                    "Name": "enterpriseregistration",
+                    "Type": "CNAME",
+                    "Value": "enterpriseregistration.windows.net"
+                },
+                {
+                    "Name": "enterpriseenrollment",
+                    "Type": "CNAME",
+                    "Value": "enterpriseenrollment.manage.microsoft.com"
+                },
+                {
+                    "Name": "msoid",
+                    "Type": "CNAME",
+                    "Value": "clientconfig.microsoftonline-p.net"
+                }
+            ]
+        },
+        "External": {
+            "Server": "1.1.1.1",
+            "Domain": "lab62658276.godeploylabs.com",
+            "Records":[
+                {
+                    "Name": "autodiscover",
+                    "Type": "CNAME",
+                    "Value": "autodiscover.outlook.com"
+                },
+                {
+                    "Name": "sip",
+                    "Type": "CNAME",
+                    "Value": "sipdir.online.lync.com"
+                },
+                {
+                    "Name": "lyncdiscover",
+                    "Type": "CNAME",
+                    "Value": "webdir.online.lync.com"
+                },
+                {
+                    "Name": "enterpriseregistration",
+                    "Type": "CNAME",
+                    "Value": "enterpriseregistration.windows.net"
+                },
+                {
+                    "Name": "enterpriseenrollment",
+                    "Type": "CNAME",
+                    "Value": "enterpriseenrollment.manage.microsoft.com"
+                },
+                {
+                    "Name": "",
+                    "Type": "MX",
+                    "Value": "clientconfig.microsoftonline-p.net"
+                }
+            ]
         }
     }
 }
