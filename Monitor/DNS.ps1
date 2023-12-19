@@ -1,7 +1,6 @@
 $Settings = Get-Content -Path .\Settings.json | ConvertFrom-Json
 
 foreach ($record in $Settings.DNS.Internal.Records) {
-    
     if ([String]::IsNullOrEmpty($record.Name)) {
         $Query = @{
             Name = $Settings.DNS.Internal.Domain
@@ -31,5 +30,4 @@ foreach ($record in $Settings.DNS.Internal.Records) {
             Write-Host @Query -ForegroundColor Red
         }
     }
-    
 }
